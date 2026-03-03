@@ -57,7 +57,7 @@ export function Skills() {
                   </span>
                 ))}
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
