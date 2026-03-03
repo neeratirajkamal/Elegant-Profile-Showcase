@@ -28,9 +28,11 @@ export function About() {
 
           <div className="grid gap-4">
             {focuses.map((item, idx) => (
-              <div 
+              <motion.div 
                 key={idx} 
-                className="glass-card p-6 rounded-2xl flex items-start gap-4 hover:border-primary/40 transition-colors duration-300"
+                whileHover={{ y: -5, scale: 1.02 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                className="glass-card p-6 rounded-2xl flex items-start gap-4 hover:border-primary/40 transition-colors duration-300 cursor-default"
               >
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
                   <item.icon className="w-6 h-6 text-primary" />
@@ -39,7 +41,7 @@ export function About() {
                   <h3 className="text-xl font-bold mb-2">{item.title}</h3>
                   <p className="text-muted-foreground">{item.desc}</p>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>

@@ -36,18 +36,22 @@ export function Experience() {
             
             <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-primary/50 before:to-transparent pl-12 md:pl-0">
               {education.map((edu, idx) => (
-                <div key={idx} className="relative md:flex md:justify-between md:items-center">
+                <motion.div 
+                  key={idx} 
+                  whileHover={{ scale: 1.02 }}
+                  className="relative md:flex md:justify-between md:items-center"
+                >
                   {/* Timeline dot */}
-                  <div className="absolute -left-[35px] md:left-1/2 md:-ml-2.5 w-5 h-5 rounded-full border-4 border-background bg-primary z-10 shadow-[0_0_10px_rgba(139,92,246,0.5)]" />
+                  <div className="absolute -left-[35px] md:left-1/2 md:-ml-2.5 w-5 h-5 rounded-full border-4 border-background bg-primary z-10 shadow-[0_0_15px_rgba(139,92,246,0.6)]" />
                   
                   <div className={`md:w-5/12 ${idx % 2 === 0 ? 'md:text-right md:pr-12' : 'md:pl-12 md:ml-auto'}`}>
-                    <div className="glass-card p-6 rounded-2xl hover:border-primary/30 transition-colors">
+                    <div className="glass-card p-6 rounded-2xl hover:border-primary/40 transition-all shadow-lg hover:shadow-primary/5">
                       <span className="text-primary font-mono text-sm block mb-2">{edu.period}</span>
                       <h3 className="text-xl font-bold mb-1">{edu.degree}</h3>
                       <p className="text-muted-foreground">{edu.school}</p>
                     </div>
                   </div>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>
@@ -61,9 +65,11 @@ export function Experience() {
             
             <div className="grid gap-4">
               {certifications.map((cert, idx) => (
-                <div 
+                <motion.div 
                   key={idx} 
-                  className="glass-card p-6 rounded-2xl flex items-center justify-between group hover:bg-primary/5 transition-all duration-300 border-white/5 hover:border-primary/30"
+                  whileHover={{ x: 10, backgroundColor: "rgba(139,92,246,0.08)" }}
+                  transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                  className="glass-card p-6 rounded-2xl flex items-center justify-between group transition-all duration-300 border-white/5 hover:border-primary/30 cursor-default"
                 >
                   <div>
                     <h3 className="text-lg font-bold group-hover:text-primary transition-colors">{cert.title}</h3>
@@ -72,7 +78,7 @@ export function Experience() {
                   <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 shrink-0">
                     <Briefcase className="w-5 h-5" />
                   </div>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>

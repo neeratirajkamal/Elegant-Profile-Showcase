@@ -35,11 +35,13 @@ export function Skills() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {skillCategories.map((cat, idx) => (
-            <div 
+            <motion.div 
               key={idx} 
-              className="glass-card p-8 rounded-3xl hover:-translate-y-2 transition-transform duration-300 border-white/5 hover:border-primary/30"
+              whileHover={{ y: -8, scale: 1.02 }}
+              transition={{ type: "spring", stiffness: 300, damping: 15 }}
+              className="glass-card p-8 rounded-3xl transition-all duration-300 border-white/5 hover:border-primary/30 shadow-xl hover:shadow-primary/5"
             >
               <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary/20 to-purple-500/20 flex items-center justify-center mb-6">
                 <cat.icon className="w-7 h-7 text-primary" />

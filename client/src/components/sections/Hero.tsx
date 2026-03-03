@@ -24,12 +24,12 @@ export function Hero() {
             <span className="text-sm font-medium">Aspiring AI & Automation Developer</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-display leading-[1.1] mb-6">
-            Hi, I'm <span className="text-glow text-transparent bg-clip-text bg-gradient-to-r from-primary via-purple-400 to-indigo-400">Raj Kamal.</span><br />
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold font-display leading-[1.1] mb-6">
+            Hi, I'm <span className="text-glow text-transparent bg-clip-text bg-gradient-to-r from-primary via-purple-400 to-indigo-400">Raj Kamal.</span><br className="hidden sm:block" />
             Building Intelligent Systems.
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl leading-relaxed">
             I simplify workflows & empower businesses by connecting people, data, and decisions seamlessly through AI-driven solutions.
           </p>
 

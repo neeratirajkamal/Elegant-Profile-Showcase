@@ -12,11 +12,15 @@ export function AnimatedSection({ children, className = "", id, delay = 0 }: Ani
   return (
     <motion.section
       id={id}
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.7, delay, ease: [0.21, 0.47, 0.32, 0.98] }}
-      className={`py-20 md:py-32 ${className}`}
+      initial={{ opacity: 0, y: 20, scale: 0.98 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ 
+        duration: 0.8, 
+        delay, 
+        ease: [0.16, 1, 0.3, 1] 
+      }}
+      className={`py-16 md:py-24 ${className}`}
     >
       {children}
     </motion.section>
