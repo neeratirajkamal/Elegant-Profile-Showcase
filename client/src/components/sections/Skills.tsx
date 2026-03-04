@@ -1,17 +1,18 @@
+import { motion } from "framer-motion";
 import { AnimatedSection } from "../AnimatedSection";
-import { Database, Bot } from "lucide-react";
+import { Bot, BrainCircuit } from "lucide-react";
 
 export function Skills() {
   const skillCategories = [
     {
-      title: "Data & AI",
-      icon: Database,
-      skills: ["SQL", "AI/ML Concepts", "Pattern Recognition", "Vector DBs"]
+      title: "Technical AI Skills",
+      icon: Bot,
+      skills: ["AI Automation", "Prompt Engineering", "Reasoning Design", "No-Code AI Systems"]
     },
     {
-      title: "Automation Tools",
-      icon: Bot,
-      skills: ["ChatGPT", "Gemini", "Make", "n8n"]
+      title: "Soft Skills",
+      icon: BrainCircuit,
+      skills: ["Communication", "Problem Solving", "Team Collaboration", "Analytical Thinking"]
     }
   ];
 

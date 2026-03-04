@@ -1,7 +1,21 @@
+import { motion } from "framer-motion";
 import { AnimatedSection } from "../AnimatedSection";
-import { Award, Briefcase, GraduationCap } from "lucide-react";
+import { Award, Briefcase, GraduationCap, Cpu, BrainCircuit } from "lucide-react";
 
 export function Experience() {
+  const projects = [
+    { 
+      title: "Metro Crowd Predictor Hydro Flow", 
+      desc: "An intelligent system designed to predict metro crowd patterns and optimize flow using advanced AI models.",
+      icon: Cpu
+    },
+    { 
+      title: "HealthScanX", 
+      desc: "AI-driven diagnostic tool that streamlines health data analysis and simplifies medical workflows.",
+      icon: BrainCircuit
+    },
+  ];
+
   const certifications = [
     { title: "Tata Imagination Challenge 2024", issuer: "Tata Group" },
     { title: "Accenture UK Job Simulation", issuer: "Accenture" },
@@ -25,6 +39,28 @@ export function Experience() {
   return (
     <AnimatedSection id="experience">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
+        <div className="mb-20">
+          <div className="flex items-center gap-3 mb-10">
+            <Briefcase className="w-8 h-8 text-primary" />
+            <h2 className="text-3xl md:text-4xl font-bold">Key Projects</h2>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            {projects.map((project, idx) => (
+              <motion.div
+                key={idx}
+                whileHover={{ y: -10 }}
+                className="glass-card p-8 rounded-3xl border-white/5 hover:border-primary/30 shadow-xl hover:shadow-primary/10 transition-all"
+              >
+                <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6">
+                  <project.icon className="w-7 h-7 text-primary" />
+                </div>
+                <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
+                <p className="text-muted-foreground text-lg leading-relaxed">{project.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-16">
           
           {/* Education Timeline */}
