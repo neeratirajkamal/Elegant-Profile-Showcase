@@ -1,18 +1,8 @@
 import { AnimatedSection } from "../AnimatedSection";
-import { Code2, Database, Wrench, Bot } from "lucide-react";
+import { Database, Bot } from "lucide-react";
 
 export function Skills() {
   const skillCategories = [
-    {
-      title: "Core Languages",
-      icon: Code2,
-      skills: ["Java", "Python", "TypeScript", "JavaScript"]
-    },
-    {
-      title: "Frameworks & Web",
-      icon: Wrench,
-      skills: ["React", "Node.js", "Express", "Tailwind CSS"]
-    },
     {
       title: "Data & AI",
       icon: Database,
