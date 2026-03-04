@@ -17,9 +17,6 @@ export function Experience() {
   ];
 
   const certifications = [
-    { title: "Tata Imagination Challenge 2024", issuer: "Tata Group" },
-    { title: "Accenture UK Job Simulation", issuer: "Accenture" },
-    { title: "Identity Security for AI Age", issuer: "Saviynt" },
     { title: "Automate Your Work", issuer: "Google / Coursera" },
   ];
 
