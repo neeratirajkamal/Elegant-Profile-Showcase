@@ -92,7 +92,12 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="John Doe" {...field} className="bg-background/50 border-white/10 focus-visible:ring-primary h-12" />
+                        <Input 
+                          placeholder="John Doe" 
+                          {...field} 
+                          className="bg-background/50 border-white/10 focus-visible:ring-primary h-12" 
+                          data-testid="input-name"
+                        />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -105,7 +110,13 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>Email</FormLabel>
                       <FormControl>
-                        <Input placeholder="john@example.com" type="email" {...field} className="bg-background/50 border-white/10 focus-visible:ring-primary h-12" />
+                        <Input 
+                          placeholder="john@example.com" 
+                          type="email" 
+                          {...field} 
+                          className="bg-background/50 border-white/10 focus-visible:ring-primary h-12" 
+                          data-testid="input-email"
+                        />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -122,6 +133,7 @@ export function Contact() {
                           placeholder="How can I help you?" 
                           className="min-h-[150px] resize-none bg-background/50 border-white/10 focus-visible:ring-primary"
                           {...field} 
+                          data-testid="textarea-message"
                         />
                       </FormControl>
                       <FormMessage />
@@ -132,6 +144,7 @@ export function Contact() {
                   type="submit" 
                   className="w-full h-14 rounded-xl text-base font-semibold shadow-lg shadow-primary/20 hover:scale-[1.02] active:scale-[0.98] transition-transform"
                   disabled={mutation.isPending}
+                  data-testid="button-submit-message"
                 >
                   {mutation.isPending ? "Sending..." : "Send Message"}
                   {!mutation.isPending && <Send className="w-5 h-5 ml-2" />}

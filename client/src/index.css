@@ -34,9 +34,20 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 10% 15%;
-    --input: 240 10% 15%;
-    --ring: 252 87% 67%;
+    --chart-1: 252 87% 67%;
+    --chart-2: 240 10% 15%;
+    --chart-3: 0 0% 98%;
+    --chart-4: 252 87% 67%;
+    --chart-5: 240 10% 12%;
+
+    --sidebar: 240 10% 4%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 252 87% 67%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 252 87% 67%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 10% 15%;
+    --sidebar-ring: 252 87% 67%;
 
     --radius: 0.75rem;
   }

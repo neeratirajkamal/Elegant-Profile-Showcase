@@ -13,11 +13,19 @@ export function useCreateMessage() {
       });
 
       if (!res.ok) {
-        if (res.status === 400) {
-          const error = api.messages.create.responses[400].parse(await res.json());
-          throw new Error(error.message);
+        let errorMessage = 'Failed to send message';
+        try {
+          const errorData = await res.json();
+          if (res.status === 400) {
+            const error = api.messages.create.responses[400].parse(errorData);
+            errorMessage = error.message;
+          } else if (errorData.message) {
+            errorMessage = errorData.message;
+          }
+        } catch (e) {
+          // Fallback to default error message if JSON parsing fails
         }
-        throw new Error('Failed to send message');
+        throw new Error(errorMessage);
       }
 
       return api.messages.create.responses[201].parse(await res.json());

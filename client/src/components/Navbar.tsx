@@ -47,6 +47,7 @@ export function Navbar() {
               key={item.label}
               onClick={() => scrollTo(item.id)}
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              data-testid={`button-nav-${item.id}`}
             >
               {item.label}
             </button>
@@ -56,6 +57,7 @@ export function Navbar() {
         <button 
           onClick={() => scrollTo("contact")}
           className="hidden md:inline-flex h-10 px-6 items-center justify-center rounded-full bg-primary/10 text-primary border border-primary/20 hover:bg-primary hover:text-primary-foreground transition-all duration-300 font-medium text-sm"
+          data-testid="button-nav-contact"
         >
           Let's Talk
         </button>

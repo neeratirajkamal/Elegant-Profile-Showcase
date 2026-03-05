@@ -14,9 +14,10 @@ export async function registerRoutes(
       const message = await storage.createMessage(input);
       res.status(201).json(message);
     } catch (err) {
+      console.error("Error creating message:", err);
       if (err instanceof z.ZodError) {
         return res.status(400).json({
-          message: err.errors[0].message,
+          message: `Validation error: ${err.errors[0].message}`,
           field: err.errors[0].path.join('.'),
         });
       }
