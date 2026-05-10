@@ -1,0 +1,386 @@
+# COMPLETE MASTER PROMPT SYSTEM — ALL PARTS (1–10)
+# Portfolio:
+https://elegant-profile-showcase.onrender.com/
+
+Use this entire prompt inside Replit AI.
+
+====================================================
+PART 1 — TECHNICAL SEO FOUNDATION
+====================================================
+
+You are a Senior Technical SEO Engineer, React SEO Architect,
+Core Web Vitals Specialist, and Render.com Deployment Expert.
+
+Optimize my React SPA portfolio website hosted on Render.com.
+
+Tasks:
+- Fix React SPA crawlability
+- Optimize indexing
+- Improve Google discoverability
+- Improve Core Web Vitals
+- Improve LCP
+- Improve CLS
+- Improve INP
+- Optimize semantic HTML
+- Create robots.txt
+- Create sitemap.xml
+- Add canonical tags
+- Fix duplicate indexing
+- Improve mobile SEO
+- Improve accessibility SEO
+- Improve page speed
+- Optimize React rendering
+- Optimize lazy loading
+- Optimize hydration
+- Improve structured data readiness
+
+Generate:
+- production-ready React code
+- deployment instructions
+- Render.com optimization
+- SEO architecture
+- indexing strategy
+
+Website:
+https://elegant-profile-showcase.onrender.com/
+
+====================================================
+PART 2 — ON-PAGE SEO & KEYWORD DOMINATION
+====================================================
+
+You are a Senior Technical SEO Strategist,
+Semantic SEO Expert,
+and Search Intent Optimization Specialist.
+
+Optimize my portfolio for:
+- Google rankings
+- recruiter discovery
+- AI search visibility
+- semantic SEO
+- CTR optimization
+- organic traffic growth
+
+Generate:
+- primary keywords
+- semantic keywords
+- NLP entities
+- recruiter keywords
+- long-tail keywords
+- title tags
+- meta descriptions
+- H1/H2/H3 structure
+- semantic heading architecture
+- FAQ schema
+- Person schema
+- ItemList schema
+- Open Graph tags
+- Twitter cards
+- recruiter-focused hero section
+- SEO copywriting
+- image SEO strategy
+- og-image.png strategy
+
+Project Highlight:
+HydroFlow — AI Metro Crowd Predictor
+
+Profession:
+AI Automation Developer
+
+====================================================
+PART 3 — FULL GA4 IMPLEMENTATION
+====================================================
+
+You are a Senior GA4 Analytics Engineer,
+Behavior Tracking Specialist,
+and Conversion Analytics Expert.
+
+Build a complete GA4 implementation for my React portfolio.
+
+Generate:
+- gtag.js setup
+- React Router page tracking
+- reusable analytics utilities
+- event tracking system
+- recruiter behavior tracking
+- conversion tracking
+- custom dimensions
+- session scoring
+- scroll depth tracking
+- CTA tracking
+- dashboard strategy
+- automated alerts
+- Looker Studio integration
+
+Track events:
+- resume_download
+- linkedin_click
+- github_click
+- project_view
+- project_expand
+- scroll_depth_50
+- scroll_depth_90
+- email_click
+- form_submission
+- contact_click
+
+Generate:
+- production-ready React code
+- event hierarchy
+- KPI mapping
+- recruiter intent scoring
+- engagement scoring
+
+====================================================
+PART 4 — GOOGLE SEARCH CONSOLE WEEKLY RITUAL
+====================================================
+
+You are an SEO Operations Strategist.
+
+Create a weekly SEO growth system.
+
+Generate:
+- 4-week SEO ritual
+- monthly SEO audit ritual
+- indexing workflow
+- sitemap submission strategy
+- keyword monitoring process
+- ranking analysis workflow
+- technical SEO monitoring
+- backlink monitoring
+- CTR improvement workflow
+- SEO growth reporting
+
+Include submission workflow for:
+- Google
+- Bing
+- Yahoo
+- DuckDuckGo
+- Yandex
+- IndexNow
+
+====================================================
+PART 5 — CRO (CONVERSION RATE OPTIMIZATION)
+====================================================
+
+You are a CRO Specialist,
+UX Strategist,
+and Recruiter Conversion Expert.
+
+Optimize my portfolio for:
+- recruiter engagement
+- higher conversions
+- trust building
+- clarity
+- stronger CTA performance
+
+Generate:
+- hero CTA variants
+- recruiter-focused headlines
+- subheadline variants
+- recruiter trust copy
+- 5-second clarity test
+- exit intent strategy
+- scroll-triggered CTAs
+- sticky CTA strategy
+- recruiter journey optimization
+- conversion-focused layout
+
+Target Users:
+- recruiters
+- startup founders
+- agencies
+- freelance clients
+- hiring managers
+
+====================================================
+PART 6 — AUDIENCE SEGMENTATION
+====================================================
+
+You are a Behavioral Analytics Strategist.
+
+Create audience segmentation for:
+- Recruiters
+- Freelance Clients
+- Developers
+- Startup Founders
+- Agencies
+
+Generate:
+- GA4 audience conditions
+- retention strategy
+- engagement strategy
+- recruiter segmentation
+- visitor scoring
+- traffic quality scoring
+- warm lead identification
+- audience personalization strategy
+
+Include:
+- exact GA4 audience builder conditions
+- conversion likelihood indicators
+- high-intent visitor detection
+
+====================================================
+PART 7 — LOOKER STUDIO DASHBOARD + ALERTS
+====================================================
+
+You are a Data Visualization Expert
+and Marketing Analytics Architect.
+
+Create a 4-page Looker Studio dashboard system.
+
+Dashboard Pages:
+1. SEO Performance
+2. Recruiter Analytics
+3. Conversion Tracking
+4. Traffic Quality Analysis
+
+Generate:
+- KPI structure
+- chart recommendations
+- reporting hierarchy
+- automated GA4 alerts
+- anomaly detection
+- traffic spike alerts
+- conversion drop alerts
+- recruiter activity alerts
+
+Include:
+- dimensions
+- metrics
+- filters
+- visualizations
+- reporting cadence
+
+====================================================
+PART 8 — LINK BUILDING STRATEGY
+====================================================
+
+You are an Off-Page SEO Specialist
+and Digital PR Strategist.
+
+Create a complete link-building strategy.
+
+Generate:
+- 15 directories to submit this week
+- content-driven backlink strategy
+- digital PR angles
+- portfolio backlink opportunities
+- GitHub SEO strategy
+- LinkedIn backlink strategy
+- startup community outreach
+- AI community outreach
+- developer community strategy
+
+Generate:
+- outreach templates
+- backlink prioritization
+- authority scoring
+- white-hat SEO strategy
+
+====================================================
+PART 9 — 6-MONTH BLOG CONTENT PLAN
+====================================================
+
+You are a Content Marketing Strategist
+and SEO Content Planner.
+
+Create a 6-month blog strategy.
+
+Generate:
+- blog calendar
+- keyword targets
+- semantic topic clusters
+- AI-focused content ideas
+- recruiter-focused content
+- beginner-friendly content
+- authority-building content
+- long-tail SEO content
+- internal linking strategy
+
+Include:
+- article titles
+- target keywords
+- search intent
+- content structure
+- publishing schedule
+- CTR-focused headlines
+
+Topics:
+- AI automation
+- Python projects
+- React projects
+- dashboards
+- HydroFlow
+- career journey
+- analytics
+- SEO
+- automation systems
+
+====================================================
+PART 10 — MONTHLY KPI SCORECARD
+====================================================
+
+You are a Growth Analytics Consultant.
+
+Create a complete monthly KPI scorecard.
+
+Generate:
+- SEO KPI tracking
+- recruiter engagement KPIs
+- traffic KPIs
+- conversion KPIs
+- CTR KPIs
+- session quality KPIs
+- backlink KPIs
+- ranking KPIs
+
+Include:
+- red/amber/green thresholds
+- growth targets
+- anomaly detection
+- performance grading
+- 30-minute monthly review ritual
+- improvement workflow
+- optimization priorities
+
+Generate:
+- executive summary format
+- reporting template
+- action plan framework
+
+====================================================
+FINAL OUTPUT REQUIREMENTS
+====================================================
+
+For ALL parts generate:
+- exact production-ready code
+- React implementation
+- SEO architecture
+- analytics setup
+- deployment instructions
+- optimization checklist
+- reporting framework
+- growth strategy
+- implementation priority order
+- debugging steps
+- testing workflow
+
+====================================================
+FINAL GOAL
+====================================================
+
+The final portfolio should:
+- rank on Google
+- attract recruiters
+- increase organic traffic
+- improve conversions
+- improve recruiter engagement
+- improve semantic SEO
+- improve AI crawler understanding
+- generate interview opportunities
+- improve authority positioning
+- build long-term SEO growth
+- generate measurable analytics insights
+
+Return everything in production-ready format.

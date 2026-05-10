@@ -11,8 +11,8 @@ interface SEOProps {
 const SITE_URL = "https://elegant-profile-showcase.onrender.com";
 const DEFAULT_TITLE = "Raj Kamal Neerati — AI & Automation Developer | Hyderabad";
 const DEFAULT_DESCRIPTION =
-  "Hire Raj Kamal Neerati — AI & Automation Developer from Hyderabad. Specializing in AI workflow automation, prompt engineering, and no-code AI systems. MCA graduate open to work.";
-const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.png`;
+  "Hire Raj Kamal Neerati — AI Automation Developer from Hyderabad. Expert in AI workflow automation, prompt engineering, n8n, Make, and no-code AI systems. MCA Graduate, open to work.";
+const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.svg`;
 
 export function SEO({
   title = DEFAULT_TITLE,
@@ -27,11 +27,11 @@ export function SEO({
       <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
-      <meta name="robots" content="index, follow" />
+      <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
       <meta name="author" content="Raj Kamal Neerati" />
       <meta
         name="keywords"
-        content="AI developer Hyderabad, AI automation developer India, hire AI developer, prompt engineering expert, no-code AI systems, MCA developer Hyderabad, full stack AI developer, workflow automation developer, machine learning Hyderabad, Raj Kamal Neerati"
+        content="AI developer Hyderabad, AI automation developer India, hire AI developer Hyderabad, prompt engineering expert India, no-code AI systems developer, MCA developer Hyderabad, full stack AI developer India, workflow automation developer, n8n developer India, Make automation developer, Raj Kamal Neerati, AI developer open to work, hire automation developer India"
       />
 
       {/* Open Graph */}
@@ -42,7 +42,7 @@ export function SEO({
       <meta property="og:image" content={ogImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Raj Kamal Neerati — AI & Automation Developer" />
+      <meta property="og:image:alt" content="Raj Kamal Neerati — AI & Automation Developer, Hyderabad" />
       <meta property="og:site_name" content="Raj Kamal Neerati Portfolio" />
       <meta property="og:locale" content="en_IN" />
 
@@ -52,14 +52,23 @@ export function SEO({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
       <meta name="twitter:image:alt" content="Raj Kamal Neerati — AI & Automation Developer" />
+      <meta name="twitter:creator" content="@rajkamal_ai" />
 
       {/* Geo Tags */}
       <meta name="geo.region" content="IN-TG" />
-      <meta name="geo.placename" content="Hyderabad" />
+      <meta name="geo.placename" content="Hyderabad, Telangana" />
       <meta name="geo.position" content="17.3850;78.4867" />
       <meta name="ICBM" content="17.3850, 78.4867" />
 
-      {/* JSON-LD Structured Data */}
+      {/* Mobile / PWA */}
+      <meta name="theme-color" content="#0a0a14" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <meta name="apple-mobile-web-app-title" content="Raj Kamal Portfolio" />
+
+      {/* ── JSON-LD Structured Data ─────────────────────────────────────────── */}
+
+      {/* Person Schema */}
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
@@ -67,8 +76,7 @@ export function SEO({
           name: "Raj Kamal Neerati",
           url: SITE_URL,
           jobTitle: "AI & Automation Developer",
-          description:
-            "AI & Automation Developer from Hyderabad specializing in AI workflow automation, prompt engineering, and no-code AI systems.",
+          description: DEFAULT_DESCRIPTION,
           image: DEFAULT_OG_IMAGE,
           email: "neeratirajkamal0505@gmail.com",
           address: {
@@ -80,18 +88,30 @@ export function SEO({
           alumniOf: {
             "@type": "EducationalOrganization",
             name: "Anurag University",
+            address: { "@type": "PostalAddress", addressLocality: "Hyderabad" },
           },
+          hasCredential: [
+            {
+              "@type": "EducationalOccupationalCredential",
+              name: "Automate Your Work with AI",
+              credentialCategory: "Certificate",
+              recognizedBy: { "@type": "Organization", name: "Google / Coursera" },
+            },
+          ],
           knowsAbout: [
             "AI Workflow Automation",
             "Prompt Engineering",
             "No-Code AI Systems",
             "n8n Automation",
+            "Make (Integromat)",
+            "Python",
+            "React",
             "Machine Learning",
-            "Full Stack Development",
+            "LLM Integration",
           ],
           sameAs: [
-            "https://linkedin.com",
-            "https://github.com",
+            "https://linkedin.com/in/rajkamal-neerati",
+            "https://github.com/rajkamal-neerati",
           ],
         })}
       </script>
@@ -101,9 +121,11 @@ export function SEO({
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebSite",
-          name: "Raj Kamal Neerati Portfolio",
+          name: "Raj Kamal Neerati — AI Developer Portfolio",
           url: SITE_URL,
           description: DEFAULT_DESCRIPTION,
+          inLanguage: "en-IN",
+          author: { "@type": "Person", name: "Raj Kamal Neerati" },
           potentialAction: {
             "@type": "SearchAction",
             target: `${SITE_URL}/?q={search_term_string}`,
@@ -120,29 +142,31 @@ export function SEO({
           itemListElement: [
             { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
             { "@type": "ListItem", position: 2, name: "About", item: `${SITE_URL}/#about` },
-            { "@type": "ListItem", position: 3, name: "Skills", item: `${SITE_URL}/#skills` },
-            { "@type": "ListItem", position: 4, name: "Experience", item: `${SITE_URL}/#experience` },
+            { "@type": "ListItem", position: 3, name: "Skills & Tech Stack", item: `${SITE_URL}/#skills` },
+            { "@type": "ListItem", position: 4, name: "AI Projects", item: `${SITE_URL}/#experience` },
             { "@type": "ListItem", position: 5, name: "Contact", item: `${SITE_URL}/#contact` },
           ],
         })}
       </script>
 
-      {/* Projects ItemList Schema */}
+      {/* Projects ItemList */}
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ItemList",
-          name: "Raj Kamal Neerati — AI Projects",
+          name: "AI Projects by Raj Kamal Neerati",
+          description: "AI and automation projects built by Raj Kamal Neerati, AI developer from Hyderabad.",
           itemListElement: [
             {
               "@type": "ListItem",
               position: 1,
               item: {
                 "@type": "CreativeWork",
-                name: "Metro Crowd Predictor Hydro Flow",
+                name: "HydroFlow — AI Metro Crowd Predictor",
                 description:
-                  "An intelligent system designed to predict metro crowd patterns and optimize flow using advanced AI models.",
+                  "An intelligent AI system that predicts metro crowd patterns and optimizes passenger flow using machine learning models.",
                 url: `${SITE_URL}/#experience`,
+                keywords: ["AI/ML", "Python", "Predictive Analytics", "Urban Tech"],
                 author: { "@type": "Person", name: "Raj Kamal Neerati" },
               },
             },
@@ -153,8 +177,9 @@ export function SEO({
                 "@type": "CreativeWork",
                 name: "HealthScanX",
                 description:
-                  "AI-driven diagnostic tool that streamlines health data analysis and simplifies medical workflows.",
+                  "AI-driven diagnostic tool that streamlines health data analysis and automates report generation for faster clinical decisions.",
                 url: `${SITE_URL}/#experience`,
+                keywords: ["AI Automation", "Healthcare", "Python", "NLP"],
                 author: { "@type": "Person", name: "Raj Kamal Neerati" },
               },
             },
@@ -162,7 +187,7 @@ export function SEO({
         })}
       </script>
 
-      {/* FAQ Schema — recruiter/client questions */}
+      {/* FAQPage Schema — recruiter & client search queries */}
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
@@ -170,18 +195,18 @@ export function SEO({
           mainEntity: [
             {
               "@type": "Question",
-              name: "Is Raj Kamal Neerati available for freelance work?",
+              name: "Is Raj Kamal Neerati available for hire?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Yes, Raj Kamal Neerati is available for freelance and full-time opportunities. He specializes in AI workflow automation, prompt engineering, and no-code AI systems. Reach out at neeratirajkamal0505@gmail.com.",
+                text: "Yes — Raj Kamal Neerati is actively available for full-time, freelance, and remote AI automation developer roles. Contact at neeratirajkamal0505@gmail.com.",
               },
             },
             {
               "@type": "Question",
-              name: "What technologies does Raj Kamal Neerati specialize in?",
+              name: "What does Raj Kamal Neerati specialize in?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Raj Kamal specializes in AI automation, prompt engineering, no-code AI platforms (n8n, Make), and full-stack AI solutions. He is an MCA graduate from Anurag University, Hyderabad.",
+                text: "Raj Kamal specializes in AI workflow automation, prompt engineering, no-code AI systems (n8n, Make), LLM integration, and Python-based AI solutions.",
               },
             },
             {
@@ -189,7 +214,7 @@ export function SEO({
               name: "Where is Raj Kamal Neerati based?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Raj Kamal Neerati is based in Hyderabad, Telangana, India, and is open to remote work opportunities worldwide.",
+                text: "Raj Kamal Neerati is based in Hyderabad, Telangana, India and is open to remote opportunities worldwide.",
               },
             },
             {
@@ -197,15 +222,15 @@ export function SEO({
               name: "What AI projects has Raj Kamal Neerati built?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Raj Kamal has built Metro Crowd Predictor Hydro Flow — an AI system for predicting metro crowd patterns — and HealthScanX, an AI-driven diagnostic tool for health data analysis.",
+                text: "Raj Kamal has built HydroFlow (AI metro crowd predictor) and HealthScanX (AI diagnostic tool for healthcare automation), among other AI automation systems.",
               },
             },
             {
               "@type": "Question",
-              name: "How can I hire Raj Kamal Neerati?",
+              name: "How can I contact Raj Kamal Neerati for freelance or full-time work?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "You can contact Raj Kamal Neerati directly at neeratirajkamal0505@gmail.com or through the contact form on his portfolio at https://elegant-profile-showcase.onrender.com/.",
+                text: "Email neeratirajkamal0505@gmail.com or use the contact form at https://elegant-profile-showcase.onrender.com/#contact. He responds within 24 hours.",
               },
             },
           ],

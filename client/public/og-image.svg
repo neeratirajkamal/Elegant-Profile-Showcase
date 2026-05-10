@@ -1,0 +1,68 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="800" y1="200" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6d28d9" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Glow blobs -->
+  <circle cx="150" cy="300" r="350" fill="url(#glow1)"/>
+  <circle cx="1050" cy="350" r="300" fill="url(#glow2)"/>
+
+  <!-- Grid lines for depth -->
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Top badge -->
+  <rect x="80" y="80" width="290" height="44" rx="22" fill="#7c3aed" fill-opacity="0.15" stroke="#7c3aed" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="100" y="107" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#a78bfa" font-weight="500">▸ Open to Work • Hyderabad, IN</text>
+
+  <!-- Name -->
+  <text x="80" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="78" fill="url(#textGrad)" font-weight="800" letter-spacing="-2">Raj Kamal Neerati</text>
+
+  <!-- Role -->
+  <text x="80" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="38" fill="#e2e8f0" font-weight="600">AI &amp; Automation Developer</text>
+
+  <!-- Tagline -->
+  <text x="80" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#94a3b8" font-weight="400">Building intelligent systems · AI Workflow Automation · Prompt Engineering</text>
+
+  <!-- Divider -->
+  <rect x="80" y="410" width="120" height="3" rx="2" fill="#7c3aed"/>
+
+  <!-- Skills pills -->
+  <rect x="80" y="440" width="160" height="36" rx="18" fill="#1e1b4b" stroke="#4f46e5" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="160" y="463" font-family="system-ui, sans-serif" font-size="15" fill="#a5b4fc" text-anchor="middle">AI Automation</text>
+
+  <rect x="256" y="440" width="190" height="36" rx="18" fill="#1e1b4b" stroke="#4f46e5" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="351" y="463" font-family="system-ui, sans-serif" font-size="15" fill="#a5b4fc" text-anchor="middle">Prompt Engineering</text>
+
+  <rect x="462" y="440" width="175" height="36" rx="18" fill="#1e1b4b" stroke="#4f46e5" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="549" y="463" font-family="system-ui, sans-serif" font-size="15" fill="#a5b4fc" text-anchor="middle">No-Code AI Systems</text>
+
+  <rect x="653" y="440" width="115" height="36" rx="18" fill="#1e1b4b" stroke="#4f46e5" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="710" y="463" font-family="system-ui, sans-serif" font-size="15" fill="#a5b4fc" text-anchor="middle">n8n · Make</text>
+
+  <!-- URL -->
+  <text x="80" y="560" font-family="system-ui, sans-serif" font-size="18" fill="#475569">elegant-profile-showcase.onrender.com</text>
+
+  <!-- Right: Avatar placeholder circle with initials -->
+  <circle cx="1020" cy="270" r="150" fill="#1e1b4b" stroke="#7c3aed" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="1020" y="310" font-family="system-ui, sans-serif" font-size="80" fill="#a78bfa" text-anchor="middle" font-weight="800">RK</text>
+</svg>
