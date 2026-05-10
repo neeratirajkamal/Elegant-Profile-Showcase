@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elegant-profile-showcase.onrender.com/sitemap.xml

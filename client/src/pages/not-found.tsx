@@ -1,21 +1,29 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { AlertCircle } from "lucide-react";
+import { Helmet } from "react-helmet-async";
+import { ArrowLeft } from "lucide-react";
+import { Link } from "wouter";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-gray-50">
-      <Card className="w-full max-w-md mx-4">
-        <CardContent className="pt-6">
-          <div className="flex mb-4 gap-2">
-            <AlertCircle className="h-8 w-8 text-red-500" />
-            <h1 className="text-2xl font-bold text-gray-900">404 Page Not Found</h1>
-          </div>
-
-          <p className="mt-4 text-sm text-gray-600">
-            Did you forget to add the page to the router?
+    <>
+      <Helmet>
+        <title>Page Not Found — Raj Kamal Neerati Portfolio</title>
+        <meta name="robots" content="noindex, nofollow" />
+      </Helmet>
+      <div className="min-h-screen w-full flex items-center justify-center bg-background text-foreground">
+        <div className="text-center px-6">
+          <p className="text-primary font-mono text-lg mb-4">404</p>
+          <h1 className="text-5xl md:text-7xl font-bold font-display mb-6">Page Not Found</h1>
+          <p className="text-muted-foreground text-lg mb-10 max-w-md mx-auto">
+            This page doesn't exist. Head back to the portfolio to see Raj Kamal's work.
           </p>
-        </CardContent>
-      </Card>
-    </div>
+          <Link href="/">
+            <a className="inline-flex items-center gap-2 h-12 px-8 rounded-full bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all duration-300">
+              <ArrowLeft className="w-5 h-5" />
+              Back to Portfolio
+            </a>
+          </Link>
+        </div>
+      </div>
+    </>
   );
 }
