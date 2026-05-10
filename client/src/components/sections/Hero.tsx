@@ -12,7 +12,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      aria-label="Raj Kamal Neerati — AI & Automation Developer based in Hyderabad"
+      aria-label="Raj Kamal Neerati — Prompt Engineering Developer based in Hyderabad"
       className="relative min-h-[90vh] flex items-center justify-center pt-20 overflow-hidden"
     >
       {/* Background glow */}
@@ -27,15 +27,11 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-4xl"
         >
-          {/* Availability badge — CRO: recruiter trust signal */}
+          {/* Badge */}
           <div className="flex flex-wrap gap-3 mb-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card text-primary border-primary/20">
-              <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse shrink-0" aria-hidden="true" />
-              <span className="text-sm font-medium">Available for Hire — Hyderabad, India</span>
-            </div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card text-muted-foreground border-white/10">
               <CheckCircle className="w-4 h-4 text-primary" aria-hidden="true" />
-              <span className="text-sm font-medium">MCA Graduate · Open to Remote</span>
+              <span className="text-sm font-medium">Prompt Engineer · Hyderabad, India</span>
             </div>
           </div>
 
@@ -43,7 +39,7 @@ export function Hero() {
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold font-display leading-[1.1] mb-6">
             Raj Kamal Neerati —{" "}
             <span className="text-glow text-transparent bg-clip-text bg-gradient-to-r from-primary via-purple-400 to-indigo-400">
-              AI Automation
+              Prompt Engineering
             </span>{" "}
             Developer, Hyderabad
           </h1>
@@ -96,7 +92,7 @@ export function Hero() {
 
           {/* Social proof micro-copy — Part 5 CRO trust signal */}
           <p className="mt-6 text-sm text-muted-foreground/60">
-            2 AI projects shipped · Google-certified · MCA, Anurag University
+            2 AI projects shipped · Google-certified · Hyderabad, Telangana
           </p>
         </motion.div>
       </div>

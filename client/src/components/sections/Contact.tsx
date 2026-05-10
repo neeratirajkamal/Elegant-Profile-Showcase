@@ -5,7 +5,7 @@ import type { MessageInput } from "@shared/routes";
 import { useCreateMessage } from "@/hooks/use-messages";
 import { useToast } from "@/hooks/use-toast";
 import { AnimatedSection } from "../AnimatedSection";
-import { Send, Mail, MapPin } from "lucide-react";
+import { Send, Mail, MapPin, Phone } from "lucide-react";
 import {
   Form,
   FormControl,
@@ -67,7 +67,7 @@ export function Contact() {
               <span className="text-primary">let's build together.</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-12 max-w-md">
-              Whether you're a recruiter looking for an AI Automation Developer in Hyderabad, a startup founder needing intelligent workflows, or a client with a project — reach out directly.
+              Whether you're a recruiter looking for a Prompt Engineering Developer in Hyderabad, a startup founder needing intelligent workflows, or a client with a project — reach out directly.
             </p>
 
             <div className="space-y-6">
@@ -93,8 +93,26 @@ export function Contact() {
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium text-lg">Hyderabad, Telangana, India</p>
+                  <p className="text-sm text-muted-foreground">Address</p>
+                  <p className="font-medium">Kakatiya Hills, Pragathi Nagar,</p>
+                  <p className="font-medium">KPHB Colony, Hyderabad,</p>
+                  <p className="font-medium">Telangana – 500090</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0" aria-hidden="true">
+                  <Phone className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Phone</p>
+                  <a
+                    href="tel:+916303551518"
+                    className="font-medium text-lg hover:text-primary transition-colors"
+                    aria-label="Call Raj Kamal Neerati"
+                  >
+                    +91 63035 51518
+                  </a>
                 </div>
               </div>
             </div>

@@ -155,7 +155,7 @@ export function Navbar() {
               aria-label="Contact Raj Kamal Neerati"
             >
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" aria-hidden="true" />
-              Available for Hire — Contact Me
+              Contact Me
             </button>
           </motion.div>
         )}

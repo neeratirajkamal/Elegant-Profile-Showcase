@@ -34,12 +34,12 @@ export function About() {
           <div>
             {/* H2 — keyword-rich, Part 2 */}
             <h2 id="about-heading" className="text-3xl md:text-5xl font-bold mb-8">
-              AI & Automation Developer{" "}
+              Prompt Engineering Developer{" "}
               <span className="text-primary">based in Hyderabad.</span>
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                I'm <strong className="text-foreground">Raj Kamal Neerati</strong>, an MCA Graduate from Anurag University with a passion for building AI-driven automation systems that create measurable business impact.
+                I'm <strong className="text-foreground">Raj Kamal Neerati</strong>, a developer from Anurag University with a passion for building AI-driven automation systems that create measurable business impact.
               </p>
               <p>
                 My work focuses on <strong className="text-foreground">AI workflow automation</strong>, <strong className="text-foreground">prompt engineering</strong>, and intelligent systems that connect people, data, and decisions seamlessly — all without the overhead of traditional software development.
