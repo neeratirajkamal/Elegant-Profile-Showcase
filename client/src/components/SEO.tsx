@@ -9,9 +9,9 @@ interface SEOProps {
 }
 
 const SITE_URL = "https://elegant-profile-showcase.onrender.com";
-const DEFAULT_TITLE = "Raj Kamal Neerati — Prompt Engineering Developer | Hyderabad";
+const DEFAULT_TITLE = "Raj Kamal Neerati — Prompt Engineering | Hyderabad";
 const DEFAULT_DESCRIPTION =
-  "Raj Kamal Neerati — Prompt Engineering Developer from Hyderabad. Expert in prompt engineering, AI workflow automation, n8n, Make, and no-code AI systems. Based in KPHB Colony, Hyderabad.";
+  "Raj Kamal Neerati — Prompt Engineering from Hyderabad. Expert in prompt engineering, AI workflow automation, n8n, Make, and no-code AI systems. Based in KPHB Colony, Hyderabad.";
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.svg`;
 
 export function SEO({
@@ -42,7 +42,7 @@ export function SEO({
       <meta property="og:image" content={ogImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Raj Kamal Neerati — Prompt Engineering Developer, Hyderabad" />
+      <meta property="og:image:alt" content="Raj Kamal Neerati — Prompt Engineering, Hyderabad" />
       <meta property="og:site_name" content="Raj Kamal Neerati Portfolio" />
       <meta property="og:locale" content="en_IN" />
 
@@ -75,7 +75,7 @@ export function SEO({
           "@type": "Person",
           name: "Raj Kamal Neerati",
           url: SITE_URL,
-          jobTitle: "Prompt Engineering Developer",
+          jobTitle: "Prompt Engineering",
           description: DEFAULT_DESCRIPTION,
           image: DEFAULT_OG_IMAGE,
           email: "neeratirajkamal0505@gmail.com",

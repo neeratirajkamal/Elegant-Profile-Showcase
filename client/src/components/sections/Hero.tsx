@@ -12,7 +12,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      aria-label="Raj Kamal Neerati — Prompt Engineering Developer based in Hyderabad"
+      aria-label="Raj Kamal Neerati — Prompt Engineering based in Hyderabad"
       className="relative min-h-[90vh] flex items-center justify-center pt-20 overflow-hidden"
     >
       {/* Background glow */}
@@ -41,7 +41,7 @@ export function Hero() {
             <span className="text-glow text-transparent bg-clip-text bg-gradient-to-r from-primary via-purple-400 to-indigo-400">
               Prompt Engineering
             </span>{" "}
-            Developer, Hyderabad
+            Hyderabad
           </h1>
 
           {/* Recruiter-focused subheadline — Part 5 CRO */}

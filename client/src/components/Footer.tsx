@@ -16,7 +16,7 @@ export function Footer() {
               Raj Kamal Neerati
             </p>
             <p className="text-sm text-muted-foreground mt-1">
-              Prompt Engineering Developer · Hyderabad, India
+              Prompt Engineering · Hyderabad, India
             </p>
           </div>
 
@@ -85,7 +85,7 @@ export function Footer() {
         <div className="mt-8 pt-6 border-t border-white/5 text-center text-xs text-muted-foreground/60 space-y-1">
           <p>© {year} Raj Kamal Neerati. All rights reserved.</p>
           <p>
-            Prompt Engineering Developer · Hyderabad, Telangana, India ·{" "}
+            Prompt Engineering · Hyderabad, Telangana, India ·{" "}
             <a href="mailto:neeratirajkamal0505@gmail.com" className="hover:text-primary transition-colors">
               neeratirajkamal0505@gmail.com
             </a>

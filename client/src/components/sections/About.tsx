@@ -34,7 +34,7 @@ export function About() {
           <div>
             {/* H2 — keyword-rich, Part 2 */}
             <h2 id="about-heading" className="text-3xl md:text-5xl font-bold mb-8">
-              Prompt Engineering Developer{" "}
+              Prompt Engineering{" "}
               <span className="text-primary">based in Hyderabad.</span>
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">

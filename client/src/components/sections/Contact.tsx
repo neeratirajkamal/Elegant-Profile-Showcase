@@ -67,7 +67,7 @@ export function Contact() {
               <span className="text-primary">let's build together.</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-12 max-w-md">
-              Whether you're a recruiter looking for a Prompt Engineering Developer in Hyderabad, a startup founder needing intelligent workflows, or a client with a project — reach out directly.
+              Whether you're a recruiter looking for Prompt Engineering in Hyderabad, a startup founder needing intelligent workflows, or a client with a project — reach out directly.
             </p>
 
             <div className="space-y-6">
