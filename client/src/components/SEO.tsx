@@ -113,7 +113,7 @@ export function SEO({
             "LLM Integration",
           ],
           sameAs: [
-            "https://linkedin.com/in/rajkamal-neerati",
+            "https://www.linkedin.com/in/raj-kamal-neerati-378a67272/",
             "https://github.com/rajkamal-neerati",
           ],
         })}

@@ -64,7 +64,7 @@ export function Hero() {
             </button>
 
             <a
-              href="https://linkedin.com/in/rajkamal-neerati"
+              href="https://www.linkedin.com/in/raj-kamal-neerati-378a67272/"
               target="_blank"
               rel="noopener noreferrer"
               data-testid="link-hero-linkedin"

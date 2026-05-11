@@ -48,7 +48,7 @@ export function Footer() {
           {/* Social links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://linkedin.com/in/rajkamal-neerati"
+              href="https://www.linkedin.com/in/raj-kamal-neerati-378a67272/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn profile of Raj Kamal Neerati"
