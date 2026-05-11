@@ -12,7 +12,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      aria-label="Raj Kamal Neerati — Prompt Engineering based in Hyderabad"
+      aria-label="Raj Kamal Neerati — Prompt Engineer & AI Automation Expert based in Hyderabad"
       className="relative min-h-[90vh] flex items-center justify-center pt-20 overflow-hidden"
     >
       {/* Background glow */}
@@ -35,29 +35,31 @@ export function Hero() {
             </div>
           </div>
 
-          {/* H1 — keyword-rich for SEO, Part 2 */}
+          {/* H1 — Prompt 2: primary keyword in H1, hiring intent + location */}
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold font-display leading-[1.1] mb-6">
-            Raj Kamal Neerati —{" "}
+            Hire{" "}
             <span className="text-glow text-transparent bg-clip-text bg-gradient-to-r from-primary via-purple-400 to-indigo-400">
-              Prompt Engineering
+              Raj Kamal Neerati
             </span>{" "}
-            Hyderabad
+            — Prompt Engineer, Hyderabad
           </h1>
 
-          {/* Recruiter-focused subheadline — Part 5 CRO */}
+          {/* Prompt 2: H2-equivalent subheadline with secondary keywords */}
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-4 max-w-2xl leading-relaxed">
-            I build AI workflow systems, prompt-engineered pipelines, and no-code automation that help businesses make smarter decisions, faster.
-          </p>
-          <p className="text-base sm:text-lg text-muted-foreground/70 mb-10 max-w-xl leading-relaxed">
-            Specializing in <strong className="text-foreground/80">AI automation</strong>, <strong className="text-foreground/80">n8n / Make workflows</strong>, and <strong className="text-foreground/80">intelligent system design</strong>.
+            AI Automation Expert specializing in <strong className="text-foreground">prompt engineering</strong>, <strong className="text-foreground">LLM integration</strong>, and <strong className="text-foreground">no-code AI workflows</strong> that help businesses make smarter decisions, faster.
           </p>
 
-          {/* CTA row — Part 5 CRO optimization */}
+          {/* Prompt 2: LSI keywords naturally embedded */}
+          <p className="text-base sm:text-lg text-muted-foreground/70 mb-10 max-w-xl leading-relaxed">
+            Specializing in <strong className="text-foreground/80">n8n / Make automation</strong>, <strong className="text-foreground/80">GPT prompt design</strong>, and <strong className="text-foreground/80">intelligent pipeline architecture</strong> for startups and enterprises.
+          </p>
+
+          {/* CTA row */}
           <div className="flex flex-col sm:flex-row gap-4">
             <button
               onClick={scrollToContact}
               data-testid="button-hero-contact"
-              aria-label="Contact Raj Kamal Neerati"
+              aria-label="Hire Raj Kamal Neerati — Prompt Engineer Hyderabad"
               className="h-14 px-8 rounded-full bg-primary text-primary-foreground font-semibold flex items-center justify-center gap-2 hover:bg-primary/90 hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-primary/25"
             >
               Hire Me <ArrowRight className="w-5 h-5" aria-hidden="true" />
@@ -90,9 +92,32 @@ export function Hero() {
             </a>
           </div>
 
-          {/* Social proof micro-copy — Part 5 CRO trust signal */}
-          <p className="mt-6 text-sm text-muted-foreground/60">
-            2 AI projects shipped · Google-certified · Hyderabad, Telangana
+          {/* Prompt 4: internal navigation links for link equity distribution */}
+          <nav aria-label="Quick navigation" className="mt-8 flex flex-wrap gap-x-6 gap-y-2">
+            {[
+              { label: "About Me", href: "#about" },
+              { label: "AI Skills", href: "#skills" },
+              { label: "Projects", href: "#experience" },
+              { label: "FAQ", href: "#faq" },
+              { label: "Contact", href: "#contact" },
+            ].map(({ label, href }) => (
+              <a
+                key={href}
+                href={href}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+                }}
+                className="text-sm text-muted-foreground/60 hover:text-primary transition-colors underline-offset-4 hover:underline"
+              >
+                {label}
+              </a>
+            ))}
+          </nav>
+
+          {/* Social proof micro-copy */}
+          <p className="mt-5 text-sm text-muted-foreground/60">
+            2 AI projects shipped · Google-certified · Open to remote & freelance
           </p>
         </motion.div>
       </div>

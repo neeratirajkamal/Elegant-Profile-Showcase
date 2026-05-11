@@ -1,0 +1,87 @@
+═══════════════════════════════════════════════════════════════
+   SEO PROMPT TOOLKIT — PERSONAL BRAND / PORTFOLIO WEBSITE
+═══════════════════════════════════════════════════════════════
+
+──────────────────────────────────────────────────────────────
+PROMPT 1 — KEYWORD RESEARCH
+──────────────────────────────────────────────────────────────
+Act as a 100-year expert SEO strategist. My website is a personal 
+brand / portfolio. Generate a list of 20 high-intent, low-competition 
+long-tail keywords I should target to rank on the first page of Google. 
+Focus on keywords that signal hiring intent, collaboration intent, or 
+authority-building. Organize them by:
+  (1) Informational keywords
+  (2) Navigational keywords
+  (3) Transactional/Hiring keywords
+Also suggest 5 LSI (Latent Semantic Indexing) keywords for each group.
+
+
+──────────────────────────────────────────────────────────────
+PROMPT 2 — ON-PAGE SEO OPTIMIZATION
+──────────────────────────────────────────────────────────────
+Act as a world-class on-page SEO specialist with 100 years of experience. 
+Audit and rewrite the following page content from my personal brand website 
+to be fully optimized for Google's top organic ranking. Apply:
+  (1) Optimal title tag and meta description
+  (2) H1, H2, H3 heading structure with primary and secondary keywords naturally embedded
+  (3) Keyword density of 1–2%
+  (4) Internal linking suggestions
+  (5) Schema markup recommendations for a personal brand/portfolio
+Ensure the content reads naturally for humans while being technically 
+perfect for search engines.
+
+Here is my page content: [PASTE YOUR PAGE CONTENT HERE]
+
+
+──────────────────────────────────────────────────────────────
+PROMPT 3 — AI SEARCH ENGINE VISIBILITY (SGE / ChatGPT / Perplexity)
+──────────────────────────────────────────────────────────────
+Act as an expert in AI-driven search engine optimization (SGE, ChatGPT 
+Search, Perplexity AI, Google AI Overviews). My website is a personal 
+brand/portfolio. Write a strategy to make my website the #1 cited source 
+when AI search engines answer queries related to my niche. Include:
+  (1) How to structure content as authoritative answers (AEO — Answer Engine Optimization)
+  (2) How to write FAQ sections that AI engines quote
+  (3) How to use structured data/JSON-LD for personal brand
+  (4) Content formats AI engines prefer to surface (lists, definitions, step-by-step)
+Give me 10 specific page/section rewrites I can implement this week.
+
+
+──────────────────────────────────────────────────────────────
+PROMPT 4 — AUTHORITY & BACKLINK STRATEGY
+──────────────────────────────────────────────────────────────
+Act as a veteran link-building and digital PR strategist with deep 
+expertise in personal branding SEO. My website is a personal brand/portfolio. 
+Create a 30-day backlink acquisition plan to rapidly increase my domain 
+authority and organic search ranking. Include:
+  (1) Top 10 high-DA websites in my niche I should pitch for guest posts
+  (2) A ready-to-use guest post pitch email template
+  (3) 5 digital PR angles that journalists/bloggers would link to
+  (4) How to use HARO (Help A Reporter Out) to get press backlinks
+  (5) Internal linking architecture to distribute link equity across my site
+
+My niche/industry is: [YOUR NICHE — e.g. UX Design / Software Engineering / Marketing]
+
+
+──────────────────────────────────────────────────────────────
+PROMPT 5 — CONTENT CALENDAR FOR ORGANIC TRAFFIC
+──────────────────────────────────────────────────────────────
+Act as a senior content strategist and SEO expert. My website is a 
+personal brand/portfolio. Build me a 90-day SEO content calendar that 
+will drive sustained organic traffic and position me as a top-ranked 
+authority in my field. For each piece of content include:
+  (1) Target keyword + search volume tier
+  (2) Content type (blog, case study, comparison page, FAQ, etc.)
+  (3) Headline optimized for CTR
+  (4) Recommended word count
+  (5) Internal links to add
+Prioritize content that also gets featured in Google's People Also Ask, 
+Featured Snippets, and AI Overviews.
+
+My area of expertise: [YOUR SPECIALTY]
+
+
+═══════════════════════════════════════════════════════════════
+USAGE ORDER: Prompt 1 → 2 → 5 → 3 → 4
+REPLACE: [YOUR NICHE], [YOUR SPECIALTY], [PASTE YOUR PAGE CONTENT HERE]
+═══════════════════════════════════════════════════════════════

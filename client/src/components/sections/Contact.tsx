@@ -63,11 +63,11 @@ export function Contact() {
           <div>
             {/* H2 — Part 2 */}
             <h2 id="contact-heading" className="text-4xl md:text-6xl font-bold mb-6">
-              Hire an AI Developer —{" "}
+              Hire a Prompt Engineer —{" "}
               <span className="text-primary">let's build together.</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-12 max-w-md">
-              Whether you're a recruiter looking for Prompt Engineering in Hyderabad, a startup founder needing intelligent workflows, or a client with a project — reach out directly.
+              Whether you're a recruiter looking for a prompt engineering expert in Hyderabad, a startup founder needing AI automation, or a client with a project — reach out directly. Response within 24 hours.
             </p>
 
             <div className="space-y-6">

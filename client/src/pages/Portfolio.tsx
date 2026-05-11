@@ -5,6 +5,7 @@ import { About } from "@/components/sections/About";
 import { Skills } from "@/components/sections/Skills";
 import { Experience } from "@/components/sections/Experience";
 import { Contact } from "@/components/sections/Contact";
+import { FAQ } from "@/components/sections/FAQ";
 import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import { initScrollDepthTracking, initTimeOnSiteTracking } from "@/lib/analytics";
@@ -28,6 +29,7 @@ export default function Portfolio() {
         <About />
         <Skills />
         <Experience />
+        <FAQ />
         <Contact />
         <Footer />
       </main>
