@@ -7,6 +7,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Portfolio from "@/pages/Portfolio";
+import Admin from "@/pages/Admin";
 
 declare global {
   interface Window {
@@ -36,6 +37,7 @@ function Router() {
       <GA4PageTracker />
       <Switch>
         <Route path="/" component={Portfolio} />
+        <Route path="/admin" component={Admin} />
         <Route component={NotFound} />
       </Switch>
     </>
