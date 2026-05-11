@@ -77,7 +77,7 @@ export function Hero() {
             </a>
 
             <a
-              href="https://github.com/rajkamal-neerati"
+              href="https://github.com/neeratirajkamal"
               target="_blank"
               rel="noopener noreferrer"
               data-testid="link-hero-github"

@@ -59,7 +59,7 @@ export function Footer() {
               <SiLinkedin className="w-5 h-5 text-[#0A66C2]" aria-hidden="true" />
             </a>
             <a
-              href="https://github.com/rajkamal-neerati"
+              href="https://github.com/neeratirajkamal"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub profile of Raj Kamal Neerati"

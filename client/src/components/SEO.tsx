@@ -114,7 +114,7 @@ export function SEO({
           ],
           sameAs: [
             "https://www.linkedin.com/in/raj-kamal-neerati-378a67272/",
-            "https://github.com/rajkamal-neerati",
+            "https://github.com/neeratirajkamal",
           ],
         })}
       </script>
