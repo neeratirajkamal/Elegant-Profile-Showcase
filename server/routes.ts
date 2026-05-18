@@ -23,7 +23,7 @@ export async function registerRoutes(
         body: input.message,
       }).catch((err) => {
         const detail = err?.response?.body ? JSON.stringify(err.response.body) : err.message;
-        console.error("Email send failed:", detail);
+        console.error("Email send failed [status]:", err?.code, "[body]:", detail);
       });
 
       res.status(201).json(message);
