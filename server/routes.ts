@@ -5,6 +5,7 @@ import { api } from "@shared/routes";
 import { z } from "zod";
 import { requireAdmin } from "./auth";
 import { getGA4Stats, getSearchConsoleStats } from "./analytics";
+import { sendContactEmail } from "./mailer";
 
 export async function registerRoutes(
   httpServer: Server,
@@ -14,6 +15,16 @@ export async function registerRoutes(
     try {
       const input = api.messages.create.input.parse(req.body);
       const message = await storage.createMessage(input);
+
+      // Send email notification to inbox — fire-and-forget, never block the response
+      sendContactEmail({
+        fromName: input.name,
+        fromEmail: input.email,
+        body: input.message,
+      }).catch((err) => {
+        console.error("Email send failed:", err.message);
+      });
+
       res.status(201).json(message);
     } catch (err) {
       console.error("Error creating message:", err);
